@@ -1,40 +1,4 @@
-.page {
-	background: #2a2c2f;
-	max-width: 1280px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.header {
-	max-width: 984px;
-	max-height: 44px;
-	margin-right: auto;
-	margin-left: auto;
-	display: flex;
-	justify-content: space-between;
-}
-.header__logo {
-	position: relative;
-	max-height: 44px;
-	max-width: 190px;
-}
-
-.wrapper {
-	display: flex;
-	justify-content: space-between;
-}
-
-.logo-link {
-	font-family: Inter;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-	line-height: 28px;
-	text-align: right;
-	text-decoration-line: underline;
-	color: #ffffff;
-}
-
-.logo-link:nth-child(1) {
-	padding-right: 18px;
-}
+@import url(/blocks/page/page.css);
+@import url(/blocks/header/header.css);
+@import url(/blocks/logo/logo.css);
+@import url(/blocks/header/__lang-link/header__lang-link.css);
