@@ -7,3 +7,40 @@
 	color: #fff;
 	font-family: 'Inter', sans-serif;
 }
+
+@font-face {
+	font-family: inter-black;
+	src: url(../../text/static/Inter-Black.ttf);
+}
+@font-face {
+	font-family: inter-bold;
+	src: url(../../text/static/Inter-Bold.ttf);
+}
+@font-face {
+	font-family: inter-extrabold;
+	src: url(../../text/static/Inter-ExtraBold.ttf);
+}
+@font-face {
+	font-family: inter-extralight;
+	src: url(../../text/static/Inter-ExtraLight.ttf);
+}
+@font-face {
+	font-family: inter-light;
+	src: url(../../text/static/Inter-Light.ttf);
+}
+@font-face {
+	font-family: inter-medium;
+	src: url(../../text/static/Inter-Medium.ttf);
+}
+@font-face {
+	font-family: inter-regular;
+	src: url(../../text/static/Inter-Regular.ttf);
+}
+@font-face {
+	font-family: inter-semibold;
+	src: url(../../text/static/Inter-SemiBold.ttf);
+}
+@font-face {
+	font-family: inter-thin;
+	src: url(../../text/static/Inter-Thin.ttf);
+}
