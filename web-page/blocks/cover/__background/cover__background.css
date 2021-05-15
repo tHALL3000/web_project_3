@@ -1,11 +1,19 @@
 .cover__background {
-	background-image: url(../../../sprint-3-images-en/cover-route-66.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	max-width: 100%;
-	height: 640px;
+	max-width: 100vw;
+	
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	opacity: 1;
+	z-index: 1;
 }
+
+.cover__background:hover {
+opacity: .5;
+	
+
+/* .overlay { */
+/* width: 210px; */
+/* height: 210px; */
+/* padding: 20px; */
+/* background: none; */
