@@ -1,10 +1,13 @@
 .cover__subtitle {
+	position: absolute;
 	font-family: 'Inter', sans-serif;
 	text-align: center;
-	font-weight: 400;
 	font-size: 18px;
 	line-height: 22px;
 	margin: 0;
 	padding: 0;
 	z-index: 2;
+	top: calc(50% + 32px);
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
 }
