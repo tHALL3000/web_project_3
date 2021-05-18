@@ -1,0 +1,11 @@
+.intro {
+	max-width: 690px;
+	margin: 0;
+	margin-left: 148px;
+	margin-bottom: 92px;
+	margin-right: auto;
+	justify-content: flex-start;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
