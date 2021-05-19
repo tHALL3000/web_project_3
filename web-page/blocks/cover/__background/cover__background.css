@@ -3,6 +3,6 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 1184px;
+	width: calc(100% - 96px);
 	height: 740px;
 }

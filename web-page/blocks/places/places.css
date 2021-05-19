@@ -11,14 +11,14 @@
 	gap: 48px 40px;
 	padding-bottom: 80px;
 	grid-template-areas: "title website" "image paragraph";
+	margin: 0 auto;
 }
 
 .place__paragraph {
-	font-family: 'Inter', sans-serif;
-	text-align: center;
-	font-weight: 400;
-	font-size: 30px;
-	line-height: 36px;
+	font-family: 'Inter-Light', sans-serif;
+	text-align: left;
+	font-size: 18px;
+	line-height: 29.34px;
 	grid-area: paragraph;
 	/*background-color: aqua;*/
 	/*grid-column-start: 2;
@@ -26,28 +26,31 @@
     grid-row-start: 2;
     grid-row-end: span 3;*/
 }
-
 .place__website {
-	font-family: 'Inter', sans-serif;
-	/* text-align: center; */
-	font-weight: 400;
-	font-size: 30px;
-	line-height: 36px;
-	background-color: chartreuse;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-content: flex-end;
+	margin: 0;
+	margin-top: 122px;
+}
+.place__website--url-heading {
+	font-family: 'Inter-Light', sans-serif;
+	font-size: 14px;
+	line-height: 20.4px;
 	grid-area: website;
+	color: #aaa;
+
 	/* grid-column-start: 2; */
 	/* grid-column-end: span 3; */
 	/* grid-row-start: 1; */
 	/* grid-row-end: span 2;*/
 }
-.place__website-url {
-	font-family: 'Inter', sans-serif;
-	/* text-align: center; */
-	font-weight: 400;
-	font-size: 30px;
-	line-height: 36px;
-	background-color: white;
-	text-decoration: none;
+.place__website--url-link {
+	font-family: 'Inter-Light', sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	color: #fff;
 }
 
 .place__image {
@@ -61,11 +64,11 @@
 }
 .place__title {
 	margin: 0;
+	margin-top: 92px;
 	padding: 0;
-	font-family: 'Inter', sans-serif;
+	font-family: 'Inter-extrabold', sans-serif;
 	display: flex;
 	align-items: flex-end;
-	font-weight: 400;
 	font-size: 72px;
 	line-height: 76px;
 	grid-area: title;

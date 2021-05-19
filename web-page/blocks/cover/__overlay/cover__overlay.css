@@ -2,12 +2,9 @@
 	content: '';
 	position: absolute;
 
-	width: 1184px;
+	width: calc(100% - 96px);
 	height: 740px;
 	transition: linear 0.4s;
-	/* background: rgba(0, 0, 0, .6); */
-	/* opacity: 0; */
-	/* transition: opacity 0.5s; */
 }
 .cover__overlay:hover {
 	/* opacity: 1; */
