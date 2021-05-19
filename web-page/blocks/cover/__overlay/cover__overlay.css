@@ -1,12 +1,13 @@
 .cover__overlay {
-	content: '';
-	position: absolute;
-
-	width: calc(100% - 96px);
-	height: 740px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	min-height: 740px;
 	transition: linear 0.4s;
+	margin: 0 auto;
 }
 .cover__overlay:hover {
-	/* opacity: 1; */
 	background: rgba(0, 0, 0, .6);
 }

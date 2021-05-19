@@ -1,0 +1,7 @@
+.place__paragraph {
+	font-family: 'Inter-Light', sans-serif;
+	text-align: left;
+	font-size: 18px;
+	line-height: 29.34px;
+	grid-area: paragraph;
+}
