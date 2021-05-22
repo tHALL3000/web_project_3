@@ -1,5 +1,6 @@
 .cover__title {
 	position: relative;
+	color: #FFFDFD;
 	top: 0;
 	left: 0;
 	max-height: 76px;
@@ -10,5 +11,5 @@
 	margin: 0;
 	padding: 0;
 	padding-bottom: 32px;
-	z-index: 2;
+	text-decoration: none;
 }
