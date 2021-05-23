@@ -6,3 +6,22 @@
 	width: calc(100% - 96px);
 	margin: 0 auto;
 }
+@media only screen and (max-width: 1000px) {
+	.photo-grid{
+		padding-left: 24px;
+		padding-right: 24px;
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	}
+}
+@media only screen and (max-width: 775px) {
+	.photo-grid{
+		grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.photo-grid{
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+}
