@@ -8,11 +8,13 @@
 	grid-template-areas: "title website" "image paragraph";
 	margin: 0 auto;
 }
-/* /* SET THE GRID TEMPLATE AREAS FOR THE 1 BY 4. */
+
  @media only screen and (max-width: 600px) {
 .place{
 	grid-template-columns: repeat(1, 1fr);
-grid-template-rows: repeat(4, 1fr);
+
 grid-template-areas: "title" "website" "image" "paragraph";
+row-gap: 30px;
+	padding-bottom: 48px;
 }
 }

@@ -13,3 +13,8 @@
 	padding-bottom: 32px;
 	text-decoration: none;
 }
+@media only screen and (max-width: 600px) {
+.cover__title{
+	font-size: 32px;
+	line-height: 35px;
+}

@@ -11,11 +11,13 @@
 		padding-left: 24px;
 		padding-right: 24px;
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+		padding-bottom: 92px;
 	}
 }
 @media only screen and (max-width: 775px) {
 	.photo-grid{
 		grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+	padding-bottom: 88px;
 	}
 }
 
@@ -23,5 +25,6 @@
 	.photo-grid{
 		padding-left: 16px;
 		padding-right: 16px;
+		padding-bottom: 64px;
 	}
 }
