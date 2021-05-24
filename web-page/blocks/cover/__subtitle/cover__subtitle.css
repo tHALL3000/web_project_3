@@ -9,3 +9,9 @@
 	padding: 0;
 text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+.cover__title{
+	font-size: 14px;
+	line-height: 16px;
+}

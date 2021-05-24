@@ -3,18 +3,17 @@
 	max-width: 1280px;
 	margin-left: auto;
 	margin-right: auto;
-	font-weight: normal;
 	color: #fff;
-	font-family: 'Inter', sans-serif;
+	font-family: 'inter', sans-serif;
 }
 
 @font-face {
 	font-family: inter-black;
-	src: url(../../text/static/Inter-Black.ttf);
+	src: url(../../text/Inter-Black.woff2);
 }
 @font-face {
 	font-family: inter-bold;
-	src: url(../../text/static/Inter-Bold.ttf);
+	src: url(../../text/Inter-Bold.woff2);
 }
 @font-face {
 	font-family: inter-extrabold;
@@ -33,8 +32,8 @@
 	src: url(../../text/static/Inter-Medium.ttf);
 }
 @font-face {
-	font-family: inter-regular;
-	src: url(../../text/static/Inter-Regular.ttf);
+	font-family: inter;
+	src: url(../../text/Inter-Regular.woff2);
 }
 @font-face {
 	font-family: inter-semibold;

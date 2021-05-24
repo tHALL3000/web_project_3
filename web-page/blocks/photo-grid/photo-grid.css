@@ -5,6 +5,7 @@
 	grid-row-gap: 16px;
 	width: calc(100% - 96px);
 	margin: 0 auto;
+
 }
 @media only screen and (max-width: 1000px) {
 	.photo-grid{
@@ -23,6 +24,7 @@
 
 @media only screen and (max-width: 500px) {
 	.photo-grid{
+		grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
 		padding-left: 16px;
 		padding-right: 16px;
 		padding-bottom: 64px;

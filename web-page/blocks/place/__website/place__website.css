@@ -4,7 +4,7 @@
 	justify-content: left;
 	align-content: flex-end;
 	margin: 0;
-	grid-auto-flow: column;
+
 }
 
 @media only screen and (max-width: 600px) {

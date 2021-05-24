@@ -12,7 +12,6 @@
  @media only screen and (max-width: 600px) {
 .place{
 	grid-template-columns: repeat(1, 1fr);
-
 grid-template-areas: "title" "website" "image" "paragraph";
 row-gap: 30px;
 	padding-bottom: 48px;
