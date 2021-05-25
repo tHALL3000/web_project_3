@@ -1,0 +1,13 @@
+.lead {
+	max-width: 984px;
+	margin: 0 auto;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+@media only screen and (max-width: 425px) {
+.lead {
+	flex-wrap: nowrap;
+}
+}

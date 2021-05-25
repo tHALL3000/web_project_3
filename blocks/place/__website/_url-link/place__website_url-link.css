@@ -1,0 +1,9 @@
+.place__website_url-link {
+	font-family: 'Inter-Light', sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	color: #fff;
+}
+.place__website_url-link:hover {
+	opacity: 0.8;
+}
