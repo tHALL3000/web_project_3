@@ -6,7 +6,7 @@
 	padding-top: 8px;
 }
 @media only screen and (max-width: 800px) {
-	.lead__caption{
-		margin-left: 24px;
-	}
+.lead__caption{
+	margin-left: 24px;
+}
 }

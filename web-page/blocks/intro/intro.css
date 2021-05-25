@@ -12,15 +12,14 @@
 }
 
 @media only screen and (max-width: 1024px){
-	.intro {
+.intro {
 	margin-left:auto;
 }
 }
-@media only screen and (max-width:)
 
 @media only screen and (max-width: 800px) {
-	.intro{
-		margin-left: 24px;
-	}
+.intro{
+	margin-left: 24px;
+}
 }
 

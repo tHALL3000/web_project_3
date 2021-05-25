@@ -15,31 +15,10 @@
 	font-family: inter-bold;
 	src: url(../../text/Inter-Bold.woff2);
 }
-@font-face {
-	font-family: inter-extrabold;
-	src: url(../../text/static/Inter-ExtraBold.ttf);
-}
-@font-face {
-	font-family: inter-extralight;
-	src: url(../../text/static/Inter-ExtraLight.ttf);
-}
-@font-face {
-	font-family: inter-light;
-	src: url(../../text/static/Inter-Light.ttf);
-}
-@font-face {
-	font-family: inter-medium;
-	src: url(../../text/static/Inter-Medium.ttf);
-}
+
 @font-face {
 	font-family: inter;
 	src: url(../../text/Inter-Regular.woff2);
 }
-@font-face {
-	font-family: inter-semibold;
-	src: url(../../text/static/Inter-SemiBold.ttf);
-}
-@font-face {
-	font-family: inter-thin;
-	src: url(../../text/static/Inter-Thin.ttf);
-}
+
+
