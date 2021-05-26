@@ -1,7 +1,8 @@
 .place__title {
 	margin: 0;
 	padding: 0;
-	font-family: 'inter-black', sans-serif;
+	font-family: 'Inter-black', sans-serif;
+	font-weight: 900;
 	display: flex;
 	align-items: flex-end;
 	font-size: 72px;

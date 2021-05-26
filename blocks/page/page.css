@@ -7,18 +7,20 @@
 	font-family: 'inter', sans-serif;
 }
 
+
 @font-face {
-	font-family: inter-black;
-	src: url(../../text/Inter-Black.woff2);
-}
-@font-face {
-	font-family: inter-bold;
-	src: url(../../text/Inter-Bold.woff2);
+	font-family: Inter;
+	src: url(../../vendor/Inter-Regular.woff2);
 }
 
 @font-face {
-	font-family: inter;
-	src: url(../../text/Inter-Regular.woff2);
+	font-family: Inter-black;
+	src: url(../../vendor/Inter-Black.woff2);
 }
+@font-face {
+	font-family: Inter-bold;
+	src: url(../../vendor/Inter-Bold.woff2);
+}
+
 
 
