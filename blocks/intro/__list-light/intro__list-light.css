@@ -1,5 +1,6 @@
 .intro__list-light {
-	font-family: inter;
+	font-family: 'Inter';
+	font-weight: 400;
 	text-align: left;
 	font-size: 12px;
 	line-height: 18px;
