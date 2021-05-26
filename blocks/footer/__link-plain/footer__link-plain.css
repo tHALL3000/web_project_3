@@ -1,0 +1,12 @@
+
+.footer__link-plain{
+	text-decoration: none;
+	font-family: "Inter", sans-serif;
+	color: #fff;
+}
+
+
+.footer__link-plain:hover {
+	opacity: 0.8;
+}
+
