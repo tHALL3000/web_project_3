@@ -4,23 +4,9 @@
 	margin-left: auto;
 	margin-right: auto;
 	color: #fff;
-	font-family: 'inter', sans-serif;
+	font-family: 'Inter', sans-serif;
 }
 
-
-@font-face {
-	font-family: Inter;
-	src: url(../../vendor/Inter-Regular.woff2);
-}
-
-@font-face {
-	font-family: Inter-black;
-	src: url(../../vendor/Inter-Black.woff2);
-}
-@font-face {
-	font-family: Inter-bold;
-	src: url(../../vendor/Inter-Bold.woff2);
-}
 
 
 
