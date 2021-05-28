@@ -12,5 +12,7 @@
 .place__website{
 	justify-content: left;
 	align-content: center;
+	margin-left: 16px;
+	margin-right: 16px;
 }
 }
