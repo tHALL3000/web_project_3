@@ -3,14 +3,20 @@
 	font-weight: 900;
 	line-height: 58px;
 	text-align: left;
+	margin: 92px 0 0 0;
+	padding: 0 0 40px 0;
 }
 @media only screen and (max-width: 800px) {
-.intro__title {
-	margin-top:88px;
+	.intro__title {
+		margin-top: 88px;
+		min-width: 720px;
+	}
 }
-}
-@media only screen and (max-width: 400px) {
-.intro__title {
-	margin-top:64px;
-}
+@media only screen and (max-width: 465px) {
+	.intro__title {
+		margin-top: 64px;
+		font-size: 32px;
+		line-height: 35px;
+		min-width: 320px;
+	}
 }

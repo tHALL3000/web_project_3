@@ -7,10 +7,9 @@
 	font-weight: 400;
 }
 @media only screen and (max-width: 400px) {
-.footer__link{
-	margin-bottom: 16px;
-	font-size: 14px;
-	line-height: 16px;
-	color: #fff;
-}
+	.footer__link {
+		margin-bottom: 16px;
+		font-size: 14px;
+		line-height: 16px;
+	}
 }

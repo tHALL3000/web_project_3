@@ -6,8 +6,7 @@
 	margin: 0;
 }
 @media only screen and (max-width: 350px) {
-.footer__links{
-	flex-direction: column;
-	margin: 0;
-}
+	.footer__links {
+		flex-direction: column;
+	}
 }

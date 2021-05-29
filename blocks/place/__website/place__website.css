@@ -9,10 +9,18 @@
 }
 
 @media only screen and (max-width: 600px) {
-.place__website{
-	justify-content: left;
-	align-content: center;
-	margin-left: 16px;
-	margin-right: 16px;
+	.place__website {
+		justify-content: left;
+		align-content: center;
+		margin-bottom: 30px;
+		margin-left: 16px;
+		margin-right: 16px;
+	}
 }
+
+@media only screen and (max-width: 400px) {
+	.place__website {
+		margin-left: 15px;
+		margin-right: 17px;
+	}
 }

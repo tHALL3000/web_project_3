@@ -9,18 +9,23 @@
 	flex-direction: column;
 	flex-wrap: wrap;
 }
-
-@media only screen and (max-width: 990px){
-.intro {
-	margin-left:24px;
-	margin-right: 24px;
+@media only screen and (max-width: 1025px) {
+	.intro {
+		margin-left: 48px;
+		margin-right: auto;
+	}
 }
+@media only screen and (max-width: 990px) {
+	.intro {
+		margin-left: 24px;
+		margin-right: 24px;
+	}
 }
 
 @media only screen and (max-width: 550px) {
-.intro{
-	margin-left: 16px;
-	margin-right: 16px;
+	.intro {
+		margin-left: 16px;
+		margin-right: 16px;
+		flex-wrap: inherit;
+	}
 }
-}
-

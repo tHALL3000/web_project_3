@@ -1,9 +1,6 @@
 .cover__title {
 	position: relative;
-	color: #FFFDFD;
-	top: 0;
-	left: 0;
-	max-height: 76px;
+	color: #fffdfd;
 	font-weight: 900;
 	font-size: 72px;
 	line-height: 76px;
@@ -14,8 +11,9 @@
 	text-decoration: none;
 }
 @media only screen and (max-width: 600px) {
-.cover__title{
-	font-size: 32px;
-	line-height: 35px;
+	.cover__title {
+		font-size: 32px;
+		line-height: 35px;
+	}
 }
-}
+

@@ -1,6 +1,6 @@
 .cover__subtitle {
 	position: relative;
-	color: #FFFDFD;
+	color: #fffdfd;
 	text-align: center;
 	font-size: 18px;
 	font-weight: 400;
@@ -12,8 +12,13 @@
 }
 
 @media only screen and (max-width: 600px) {
-.cover__subtitle{
-	font-size: 14px;
-	line-height: 16px;
+	.cover__subtitle {
+		font-size: 14px;
+		line-height: 16px;
+	}
 }
+@media only screen and (max-width: 320px) {
+	.cover__subtitle {
+		max-width: 288px;
+	}
 }

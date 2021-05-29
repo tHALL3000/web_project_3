@@ -6,8 +6,19 @@
 	flex-direction: column;
 	flex-wrap: wrap;
 }
-@media only screen and (max-width: 425px) {
-.lead {
-	flex-wrap: nowrap;
+@media only screen and (max-width: 1025px) {
+	.lead {
+		margin-left: 48px;
+		margin-right: 48px;
+	}
 }
+@media only screen and (max-width: 990px) {
+	.lead {
+		margin: 0 auto;
+	}
+}
+@media only screen and (max-width: 425px) {
+	.lead {
+		flex-wrap: nowrap;
+	}
 }

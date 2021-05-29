@@ -1,6 +1,6 @@
 .wrapper {
 	display: flex;
-	justify-content: space-between;
+	align-items: flex-end;
 }
 
 .header__lang-link {
@@ -9,11 +9,14 @@
 	line-height: 28px;
 	text-align: right;
 	color: #ffffff;
+	padding-right: 18px;
 	text-decoration: none;
+	align-items: flex-end;
+	justify-content: space-between;
 }
 
-.header__lang-link:nth-child(1) {
-	padding-right: 18px;
+.header__lang-link:last-of-type {
+	padding-right: 0px;
 }
 
 .header__lang-link:hover {
@@ -21,8 +24,8 @@
 }
 
 @media screen and (max-width: 500px) {
-.header__lang-link {
-    font-size: 18px;
-	line-height: 20px;
-}
+	.header__lang-link {
+		font-size: 18px;
+		line-height: 20px;
+	}
 }

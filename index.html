@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="index.css">
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./pages/index.css" type="text/css" />
         <title>From Portland to Portland</title>
     </head>
     <body class="page">
-        <div class="page__wrapper">
-            <header class="header">
-                <img class="logo" src="images/logo.svg" alt="The USA Logo">
-                <nav class="wrapper"><a class="header__lang-link header__lang-link-active" href="English Language">En</a>
-                    <a class="header__lang-link" href="La Lingua de Espanol">Es</a>
-                </nav>
-            </header>
+        <header class="header">
+            <img class="logo" src="images/logo.svg" alt="The USA Logo" />
+            <div class="wrapper">
+                <a class="header__lang-link header__lang-link_active" href="#">En</a>
+                <a class="header__lang-link" href="#">Es</a>
+            </div>
+        </header>
+        <main class="page__wrapper">
             <section class="lead">
                 <h1 class="lead__title">From Portland to Portland</h1>
-                <h3 class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</h3>
-                <a><img class="lead__image" src="images/lead-mountains.jpg" alt="Greyscale picture with dark, tree covered mountain in the foreground while a snowy mountain is in the background"> </a>
+                <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
+                <a><img class="lead__image" src="images/lead-mountains.jpg" alt="Greyscale picture with dark, tree covered mountain in the foreground while a snowy mountain is in the background" /> </a>
                 <p class="lead__caption">Your journey starts here</p>
             </section>
             <article class="intro">
                 <h2 class="intro__title">Know the country you live in a little better</h2>
                 <h3 class="intro__text-large">That's exactly what we have arranged for you via this travel story</h3>
-                <p class="intro__text">Need more action and adventure in your life instead of the same old routine? From Portland, Maine to Portland, Oregon we're going to take you on an exciting journey through some unknown regions of your country. Leave the car at home and travel by bike starting in New England where it all began. You will pass through 12 beautiful states, covering a total of 3,600 miles, and accomplish 3 monumental missions. Partying and taking a selfie with a famous rock star, donating $1 to a billionaire to help eradicate polio in Africa, and even stopping by famous author Stephen King's house to say hi and asking him to sign your favorite book.</p>
+                <p class="intro__text">
+                    Need more action and adventure in your life instead of the same old routine? From Portland, Maine to Portland, Oregon we're going to take you on an exciting journey through some unknown regions of your country. Leave the
+                    car at home and travel by bike starting in New England where it all began. You will pass through 12 beautiful states, covering a total of 3,600 miles, and accomplish 3 monumental missions. Partying and taking a selfie
+                    with a famous rock star, donating $1 to a billionaire to help eradicate polio in Africa, and even stopping by famous author Stephen King's house to say hi and asking him to sign your favorite book.
+                </p>
                 <ul class="intro__list">
                     <li>Distance (miles) <span class="intro__list-light">3,644</span></li>
                     <li>Travel time (days) <span class="intro__list-light">22</span></li>
@@ -33,104 +38,122 @@
                 </ul>
             </article>
             <section class="photo-grid">
-                <div><img class="photo-grid__item" src="images/photo-grid-highway.jpg" alt="highway"> </div>
-                <div><img class="photo-grid__item" src="images/photo-grid-lake.jpg" alt="lake"> </div>
-                <div><img class="photo-grid__item" src="images/photo-grid-seagulls.jpg" alt="seagulls"> </div>
-                <div><img class="photo-grid__item" src="images/photo-grid-boise.jpg" alt="boise, idaho"> </div>
-                <div><img class="photo-grid__item" src="images/photo-grid-fog.jpg" alt="fog"> </div>
-                <div><img class="photo-grid__item" src="images/photo-grid-valley.jpg" alt="valley"> </div>
-                <div><img class="photo-grid__item" src="images/photo-grid-pass.jpg" alt="road pass"> </div>
-                <div><img class="photo-grid__item" src="images/photo-grid-twig.jpg" alt="twigs"> </div>
-                <div><img class="photo-grid__item" src="images/photo-grid-clouds.jpg" alt="clouds"> </div>
-                <div><img class="photo-grid__item" src="images/photo-grid-oasis.jpg" alt="oasis"> </div>
-                <div><img class="photo-grid__item" src="images/photo-grid-wires.jpg" alt="wires"> </div>
-                <div><img class="photo-grid__item" src="images/photo-grid-road.jpg" alt="road"> </div>
+                <img class="photo-grid__item" src="images/photo-grid-highway.jpg" alt="highway" />
+                <img class="photo-grid__item" src="images/photo-grid-lake.jpg" alt="lake" />
+                <img class="photo-grid__item" src="images/photo-grid-seagulls.jpg" alt="seagulls" />
+                <img class="photo-grid__item" src="images/photo-grid-boise.jpg" alt="boise, idaho" />
+                <img class="photo-grid__item" src="images/photo-grid-fog.jpg" alt="fog" />
+                <img class="photo-grid__item" src="images/photo-grid-valley.jpg" alt="valley" />
+                <img class="photo-grid__item" src="images/photo-grid-pass.jpg" alt="road pass" />
+                <img class="photo-grid__item" src="images/photo-grid-twig.jpg" alt="twigs" />
+                <img class="photo-grid__item" src="images/photo-grid-clouds.jpg" alt="clouds" />
+                <img class="photo-grid__item" src="images/photo-grid-oasis.jpg" alt="oasis" />
+                <img class="photo-grid__item" src="images/photo-grid-wires.jpg" alt="wires" />
+                <img class="photo-grid__item" src="images/photo-grid-road.jpg" alt="road" />
             </section>
-            <section class="place">
-                <h2 class="place__title">Maine</h2>
-                <img class="place__image" src="images/place-maine.jpg" alt="Oceanside view">
-                <section class="place__website">
-                    <p class="place__url-heading">URL
-                    </p>
-                    <a class="place__url-link" href="https://global.llbean.com/">global.llbean.com
-                    </a>
-                </section>
-                <article class="place__paragraph">
-                    <p class="place__paragraph-text">Still, as sparsely populated as it was in the 1600s, this is an extraordinary and highly underrated state full of rich history and majestic natural beauty. Maine is the main state you want to be sure not to miss. As your journey is going to be a long one, you had best be prepared for an arduous trek.
-                    </p>
-                    <p class="place__paragraph-text">Thankfully, not only is Maine home to the very first European settlers on US territory in the era of Vikings, but is also home to L.L. Bean, which is a great company to grab a super sturdy backpack from for your 3-month expedition. 
-                    </p>
-                    <p class="place__paragraph-text">Average cost: $80-100.
-                    </p>
+            <section class="places">
+                <article class="place">
+                    <div>
+                        <h2 class="place__title">Maine</h2>
+                    </div>
+                    <div class="place__website">
+                        <p class="place__url-heading">URL</p>
+                        <a class="place__url-link" href="https://global.llbean.com/">global.llbean.com </a>
+                    </div>
+                    <img class="place__image" src="images/place-maine.jpg" alt="Oceanside view" />
+                    <div class="place__paragraph">
+                        <p class="place__paragraph-text">
+                            Still, as sparsely populated as it was in the 1600s, this is an extraordinary and highly underrated state full of rich history and majestic natural beauty. Maine is the main state you want to be sure not to miss.
+                            As your journey is going to be a long one, you had best be prepared for an arduous trek.
+                        </p>
+                        <p class="place__paragraph-text">
+                            Thankfully, not only is Maine home to the very first European settlers on US territory in the era of Vikings, but is also home to L.L. Bean, which is a great company to grab a super sturdy backpack from for your
+                            3-month expedition.
+                        </p>
+                        <p class="place__paragraph-text">Average cost: $80-100.</p>
+                    </div>
                 </article>
-            </section>
-            <section class="place">
-                <h2 class="place__title">New Hampshire</h2>
-                <img class="place__image" src="images/place-new-hampshire.jpg" alt="Mountain view with river">
-                <section class="place__website">
-                    <p class="place__url-heading">URL
-                    </p>
-                    <a class="place__url-link" href="
-                        https://www.timberland.com/timberlandpro.html">timberland.com
-                    </a>
-                </section>
-                <article class="place__paragraph">
-                    <p class="place__paragraph-text">There's no better place to lose yourself in nature than in springtime New Hampshire. As serene and beautiful as it was in the 1700s, this state is still much less traveled than its neighbors to the South. So enjoy it while it lasts.
-                    </p>
-                    <p class="place__paragraph-text">You won't be on your bike the whole time, so doesn't it make sense to pick up some extra footwear? Fortunately for you, the best outdoor shoe company in the history of the world proudly hails from this state. Cycle by the Timberland headquarters in Stratham, and pick up a pair of rugged, waterproof boots to keep your feet dry. Fitting for unpredictable weather you may be confronted by while passing through the Appalachians. These boots are also better than cycling shoes when pitching a tent. 
-                    </p>
-                    <p class="place__paragraph-text">Average cost: $100-150.
-                    </p>
+                <article class="place">
+                    <h2 class="place__title">New Hampshire</h2>
+                    <div class="place__website">
+                        <p class="place__url-heading">URL</p>
+                        <a
+                            class="place__url-link"
+                            href="
+                        https://www.timberland.com/timberlandpro.html"
+                        >
+                            timberland.com
+                        </a>
+                    </div>
+                    <img class="place__image" src="images/place-new-hampshire.jpg" alt="Mountain view with river" />
+                    <div class="place__paragraph">
+                        <p class="place__paragraph-text">
+                            There's no better place to lose yourself in nature than in springtime New Hampshire. As serene and beautiful as it was in the 1700s, this state is still much less traveled than its neighbors to the South. So
+                            enjoy it while it lasts.
+                        </p>
+                        <p class="place__paragraph-text">
+                            You won't be on your bike the whole time, so doesn't it make sense to pick up some extra footwear? Fortunately for you, the best outdoor shoe company in the history of the world proudly hails from this state.
+                            Cycle by the Timberland headquarters in Stratham, and pick up a pair of rugged, waterproof boots to keep your feet dry. Fitting for unpredictable weather you may be confronted by while passing through the
+                            Appalachians. These boots are also better than cycling shoes when pitching a tent.
+                        </p>
+                        <p class="place__paragraph-text">Average cost: $100-150.</p>
+                    </div>
                 </article>
-            </section>
-            <section class="place">
-                <h2 class="place__title">New York</h2>
-                <img class="place__image" src="images/place-new-york.jpg" alt="New York City Street with tall buildings on either side">
-                <section class="place__website">
-                    <p class="place__url-heading">URL
-                    </p>
-                    <a class="place__url-link" href="https://www.ge.com/about-us">ge.com
-                    </a>
-                </section>
-                <article class="place__paragraph">
-                    <p class="place__paragraph-text">Not only famous for “The Big Apple,” the state of NY also has several other reasons for going down in history. Since the late 1800s Schenectady, “The City that Lights and Hauls the World,” has been home to the world-famous General Electric Company.
-                    </p>
-                    <p class="place__paragraph-text">This is where modern power generators were born as well as contemporary means of transmitting energy. So we figured this would be the perfect place to find a batteryless dynamo light for your bicycle to help you see through those dark lonely roads on your adventure. Such a light from GE will set you back about $10-20. 
-                    </p>
+                <article class="place">
+                    <h2 class="place__title">New York</h2>
+                    <div class="place__website">
+                        <p class="place__url-heading">URL</p>
+                        <a class="place__url-link" href="https://www.ge.com/about-us">ge.com </a>
+                    </div>
+                    <img class="place__image" src="images/place-new-york.jpg" alt="New York City Street with tall buildings on either side" />
+                    <div class="place__paragraph">
+                        <p class="place__paragraph-text">
+                            Not only famous for “The Big Apple,” the state of NY also has several other reasons for going down in history. Since the late 1800s Schenectady, “The City that Lights and Hauls the World,” has been home to the
+                            world-famous General Electric Company.
+                        </p>
+                        <p class="place__paragraph-text">
+                            This is where modern power generators were born as well as contemporary means of transmitting energy. So we figured this would be the perfect place to find a batteryless dynamo light for your bicycle to help you
+                            see through those dark lonely roads on your adventure. Such a light from GE will set you back about $10-20.
+                        </p>
+                    </div>
                 </article>
-            </section>
-            <section class="place">
-                <h2 class="place__title">Erie, PA</h2>
-                <img class="place__image" src="images/place-pennsylvania.jpg" alt="pennsylvania">
-                <section class="place__website">
-                    <p class="place__url-heading">URL
-                    </p>
-                    <a class="place__url-link" href="https://www.fws.gov/refuge/erie">fws.gov
-                    </a>
-                </section>
-                <article class="place__paragraph">
-                    <p class="place__paragraph-text">Erie, Pennsylvania, not to be confused with the word “eerie,” although it can be from time to time, is another town worth passing through for several different reasons. While it might be most famously known as the scene of the Gettysburg address delivered by Mr. Lincoln during the Civil war, Pennsylvania also has produced a rather decent-sized Amish community (eerie, huh?)
-                    </p>
-                    <p class="place__paragraph-text">The reason we've brought you here today, if you haven't already guessed, can be summed up by using one delicious word: chocolate. Hershey's is a Pennsylvania-based company. Most likely, one of the tastiest missions you'll ever embark on during this tour, try to find an Amish friend and enjoy a bar in the National Wildlife Refuge on your way to Erie and have an extra eerie time! 
-                    </p>
-                    <p>The current cost of a Hershey's Chocolate bar: about 60¢.</p>
+                <article class="place">
+                    <h2 class="place__title">Erie, PA</h2>
+                    <div class="place__website">
+                        <p class="place__url-heading">URL</p>
+                        <a class="place__url-link" href="https://www.fws.gov/refuge/erie">fws.gov </a>
+                    </div>
+                    <img class="place__image" src="images/place-pennsylvania.jpg" alt="pennsylvania" />
+                    <div class="place__paragraph">
+                        <p class="place__paragraph-text">
+                            Erie, Pennsylvania, not to be confused with the word “eerie,” although it can be from time to time, is another town worth passing through for several different reasons. While it might be most famously known as
+                            the scene of the Gettysburg address delivered by Mr. Lincoln during the Civil war, Pennsylvania also has produced a rather decent-sized Amish community (eerie, huh?)
+                        </p>
+                        <p class="place__paragraph-text">
+                            The reason we've brought you here today, if you haven't already guessed, can be summed up by using one delicious word: chocolate. Hershey's is a Pennsylvania-based company. Most likely, one of the tastiest
+                            missions you'll ever embark on during this tour, try to find an Amish friend and enjoy a bar in the National Wildlife Refuge on your way to Erie and have an extra eerie time!
+                        </p>
+                        <p>The current cost of a Hershey's Chocolate bar: about 60¢.</p>
+                    </div>
                 </article>
-            </section>
-            <section class="place">
-                <h2 class="place__title">Ohio</h2>
-                <img class="place__image" src="images/place-ohio.jpg" alt="Lone windmill in a field">
-                <section class="place__website">
-                    <p class="place__url-heading">URL
-                    </p>
-                    <a class="place__url-link" href="https://www.cedarpoint.com">cedarpoint.com
-                    </a>
-                </section>
-                <article class="place__paragraph">
-                    <p class="place__paragraph-text">From the college capital of Columbus to the clean coastline of Cleveland, Ohio is a truly hidden gem. Earthquakes are surprisingly common in this particular region of North America, over 200 of which have registered with a magnitude of 2 or higher since 1776. However, earthquakes aren't the only thing shaking this centrally located state. One of the country's largest and oldest roller coaster parks is waiting to ROCK your world in Sandusky, Ohio! This will presumably be one of the most thrilling quests you'll ever complete (provided you can stomach it). Take a much-deserved break to ride as many roller coasters as you can before continue your bike ride!
-                    </p>
-                    <p class="place__paragraph-text">
-                        The cost of a daily ticket: about $100.
-                    </p>
+                <article class="place">
+                    <h2 class="place__title">Ohio</h2>
+                    <div class="place__website">
+                        <p class="place__url-heading">URL</p>
+                        <a class="place__url-link" href="https://www.cedarpoint.com">cedarpoint.com </a>
+                    </div>
+                    <img class="place__image" src="images/place-ohio.jpg" alt="Lone windmill in a field" />
+                    <div class="place__paragraph">
+                        <p class="place__paragraph-text">
+                            From the college capital of Columbus to the clean coastline of Cleveland, Ohio is a truly hidden gem. Earthquakes are surprisingly common in this particular region of North America, over 200 of which have
+                            registered with a magnitude of 2 or higher since 1776. However, earthquakes aren't the only thing shaking this centrally located state. One of the country's largest and oldest roller coaster parks is waiting to
+                            ROCK your world in Sandusky, Ohio! This will presumably be one of the most thrilling quests you'll ever complete (provided you can stomach it). Take a much-deserved break to ride as many roller coasters as you
+                            can before continue your bike ride!
+                        </p>
+                        <p class="place__paragraph-text">
+                            The cost of a daily ticket: about $100.
+                        </p>
+                    </div>
                 </article>
             </section>
             <section class="cover">
@@ -144,16 +167,16 @@
                     </div>
                 </a>
             </section>
-            <footer class="footer">
-                <nav>
-                    <ul class="footer__links">
-                        <li class="footer__link"><a class="footer__link-plain" href="https://yandex.com/maps">Maps</a></li>
-                        <li class="footer__link"><a class="footer__link-plain" href="https://yandex.com/weather/moscow">Weather</a></li>
-                        <li class="footer__link"><a class="footer__link-plain" href="https://calendar.yandex.ru">Calendar</a></li>
-                    </ul>
-                </nav>
-                <a class="footer__copyright footer__link-plain" href="https://github.com/tHALL3000/web_project_3/tree/main"> &copy; 2021 tHALL3000</a>
-            </footer>
-        </div>
+        </main>
+        <footer class="footer">
+            <nav>
+                <ul class="footer__links">
+                    <li class="footer__link"><a class="footer__link-plain" href="https://yandex.com/maps">Maps</a></li>
+                    <li class="footer__link"><a class="footer__link-plain" href="https://yandex.com/weather/moscow">Weather</a></li>
+                    <li class="footer__link"><a class="footer__link-plain" href="https://calendar.yandex.ru">Calendar</a></li>
+                </ul>
+            </nav>
+            <a class="footer__copyright" href="https://github.com/tHALL3000/web_project_3/tree/main"> &copy; 2021 tHALL3000</a>
+        </footer>
     </body>
 </html>
