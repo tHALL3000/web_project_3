@@ -4,7 +4,7 @@
 	grid-column-gap: 16px;
 	grid-row-gap: 16px;
 	margin: 0 auto 92px;
-	object-fit: contain	;
+	object-fit: contain;
 }
 @media only screen and (max-width: 1184px) {
 	.photo-grid {

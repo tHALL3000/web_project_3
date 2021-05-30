@@ -3,7 +3,6 @@
 	font-style: normal;
 	font-weight: 400;
 	font-display: swap;
-	font-smooth: always;
 	src: url("Inter-Regular.woff2?v=3.18") format("woff2"),
 		url("Inter-Regular.woff?v=3.18")
 			format("woff");
@@ -14,7 +13,6 @@
 	font-style: normal;
 	font-weight: 700;
 	font-display: swap;
-	font-smooth: always;
 	src: url("Inter-Bold.woff2?v=3.18") format("woff2"),
 		url("Inter-Bold.woff?v=3.18")
 			format("woff");
@@ -25,7 +23,6 @@
 	font-style: normal;
 	font-weight: 900;
 	font-display: swap;
-	font-smooth: always;
 	src: url("Inter-Black.woff2?v=3.18") format("woff2"),
 		url("Inter-Black.woff?v=3.18")
 			format("woff");

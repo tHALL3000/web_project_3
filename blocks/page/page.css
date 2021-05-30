@@ -5,4 +5,6 @@
 	margin-right: auto;
 	color: #fff;
 	font-family: 'Inter', sans-serif;
+	-webkit-font-smoothing: auto;
+	-moz-osx-font-smoothing: auto;
 }
