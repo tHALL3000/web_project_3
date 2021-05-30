@@ -1,12 +1,14 @@
-.place{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.place {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: auto;
 	gap: 48px 40px;
-	grid-template-areas: 
-	"title website" 
-	"image paragraph";
+	grid-template-areas: "title website" "image paragraph";
 	padding-bottom: 80px;
+}
+
+.place:last-of-type {
+	padding-bottom: 0;
 }
 
 @media only screen and (max-width: 600px) {

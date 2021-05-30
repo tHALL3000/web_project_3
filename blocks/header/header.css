@@ -8,22 +8,21 @@
 
 @media only screen and (max-width: 1025px) {
 	.header {
-	margin: 34px 48px 50px;
-	min-width: 928px;
+		margin: 34px 48px 50px;
+		min-width: 928px;
 	}
 }
 
 @media only screen and (max-width: 775px) {
 	.header {
-	margin: 34px 24px 58px;
-	min-width: 720px;
+		margin: 34px 24px 58px;
+		min-width: 720px;
 	}
 }
 @media only screen and (max-width: 500px) {
 	.header {
-	margin: 20px 16px 50px;
-	min-width: 288px;
-	min-height: 36px;
+		margin: 20px 16px 50px;
+		min-width: 288px;
+		min-height: 36px;
 	}
 }
-

@@ -3,13 +3,13 @@
 	text-align: center;
 	font-size: 30px;
 	line-height: 36px;
-	margin: 0 0 64px 0;
+	margin: 0 auto 64px auto;
 	padding: 0;
 	max-width: 620px;
 }
 @media only screen and (max-width: 1024px) {
 	.lead__subtitle {
-		margin: 0 0 56px 0;
+		margin-bottom: 56px;
 	}
 }
 
@@ -17,7 +17,7 @@
 	.lead__subtitle {
 		font-size: 16px;
 		line-height: 20px;
-		margin: 0 0 40px 0;
+		margin-bottom: 40px;
 		max-width: 288px;
 	}
 }
