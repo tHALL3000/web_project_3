@@ -10,7 +10,7 @@
     .photo-grid {
         margin-left: 24px;
         margin-right: 24px;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
         margin-bottom: 92px;
     }
 }
@@ -22,14 +22,12 @@
 }
 @media only screen and (max-width: 775px) {
     .photo-grid {
-        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
         margin-bottom: 88px;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .photo-grid {
-        grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
         margin-left: 16px;
         margin-right: 16px;
         margin-bottom: 64px;

@@ -1,6 +1,5 @@
 .header {
-	min-width: 984px;
-	min-height: 44px;
+	max-width: 76%;
 	margin: 34px auto 58px;
 	display: flex;
 	justify-content: space-between;
@@ -9,20 +8,20 @@
 @media only screen and (max-width: 1025px) {
 	.header {
 		margin: 34px 48px 50px;
-		min-width: 928px;
+		min-width: 90%;
 	}
 }
 
 @media only screen and (max-width: 775px) {
 	.header {
 		margin: 34px 24px 58px;
-		min-width: 720px;
+		min-width: 92%;
 	}
 }
 @media only screen and (max-width: 500px) {
 	.header {
 		margin: 20px 16px 50px;
-		min-width: 288px;
+		min-width: 57%;
 		min-height: 36px;
 	}
 }
