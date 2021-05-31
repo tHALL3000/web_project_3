@@ -8,5 +8,8 @@
 	background-image: url("../../images/cover-route-66.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
-	width: 100%;
+	background-size: cover;
+	min-height: 200px;
 }
+
+

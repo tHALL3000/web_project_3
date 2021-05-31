@@ -23,6 +23,8 @@
 @media only screen and (max-width: 775px) {
     .photo-grid {
         margin-bottom: 88px;
+        margin-left: 24px;
+        margin-right: 24px;
     }
 }
 

@@ -21,5 +21,6 @@
 @media only screen and (max-width: 320px) {
 	.cover__subtitle {
 		max-width: 288px;
+		padding: 0;
 	}
 }
